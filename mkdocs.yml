@@ -2,13 +2,59 @@
 site_name: JCOIN Data Commons Documentation
 site_url: https://norc-heal.github.io/jdc-docs-public
 nav:
-  - About the JDC: ./index.md
-  - Future development: future/todos.md
+  - Home: index.md
+  - Return to Platform: https://jcoin.datacommons.io/
+  - Logging In: logging-in.md
+  # - Data and Repositories:
+  #   - Types of Hosted Data: hosted_data_types.md
+  #   - Data Management and Repositories: data_mgmt_and_repos.md
+  - JDC Platform Features:
+    - Home Page: platform/homepage.md
+    - Explorer Page: platform/explorer.md
+    - Profile Page: platform/profile_page.md
+    # - Workspaces: platform/workspaces.md
+    
+  # - Data File Downloads: downloading_files.md
+  # - Tutorial Videos: platform_tutorial_videos.md
+  
+  # - FAQs: faqs.md
+  - Contact: contact.md
+theme:
+  name: material
+  palette:
+    scheme: heal_platform
+  font:
+    text: Montserrat
+  logo: assets/jcoin-logo.svg
+  features:
+    - navigation.indexes
+    # Disable for now, as it causes problems with links to sections in Safari
+    # https://github.com/squidfunk/mkdocs-material/issues/3797
+    # - navigation.instant
+    - navigation.indexes
+    #- navigation.tabs
+    #- navigation.tabs.sticky
+    - navigation.tracking
+    #- navigation.sections
+    #- toc.integrate
+  favicon: assets/heal_logo.png
+extra_css:
+  - stylesheets/extra.css
+extra:
+  homepage: https://jcoin.datacommons.io/
 use_directory_urls: true
 markdown_extensions:
-    - toc:
-        permalink: "##"
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: True
+      baselevel: 1
+  - pymdownx.superfences
+  - pymdownx.details
 plugins:
   - search
-  - mermaid2
+  - mkdocs-video:
+      is_video: True
+  # - mermaid2
   #- offline

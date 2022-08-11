@@ -1,6 +1,6 @@
 #https://www.mkdocs.org/user-guide/configuration/#
 site_name: JCOIN Data Commons Documentation
-site_url: https://norc-heal.github.io/jdc-docs-public
+site_url: https://jcoin-maarc.github.io/jdc-docs-public
 nav:
   - Home: index.md
   - Return to Platform: https://jcoin.datacommons.io/
@@ -25,7 +25,7 @@ theme:
     scheme: heal_platform
   font:
     text: Montserrat
-  logo: assets/jcoin-logo.svg
+  logo: assets/HEAL_Initiative_White-cropped.svg
   features:
     - navigation.indexes
     # Disable for now, as it causes problems with links to sections in Safari

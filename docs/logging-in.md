@@ -15,7 +15,7 @@ You **will** need to log in and obtain authorization (access) in order to:
 
 Start by visiting the [login page](https://healdata.org/portal/login).
 
-![Healdata-Login](img/healdataorg_login.png)
+![Healdata-Login](assets/healdataorg_login.png)
 
 ## Login Page Options
 

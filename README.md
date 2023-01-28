@@ -3,7 +3,7 @@
 This repository makes the documentation for the 
 JCOIN data commons using mkdocs and related plugins.
 
-Install python (tested with 3.9) ideally in a virtual environment
+The `archive` folder may contain useful tidbits (albeit incomplete).  
 
 ## Set up
 

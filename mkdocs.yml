@@ -5,27 +5,21 @@ nav:
   - Home: index.md
   - Return to Platform: https://jcoin.datacommons.io/
   - Logging In: logging-in.md
-  # - Data and Repositories:
-  #   - Types of Hosted Data: hosted_data_types.md
-  #   - Data Management and Repositories: data_mgmt_and_repos.md
   - JDC Platform Features:
     - Home Page: platform/homepage.md
     - Explorer Page: platform/explorer.md
     - Profile Page: platform/profile_page.md
-    # - Workspaces: platform/workspaces.md
-    
-  # - Data File Downloads: downloading_files.md
-  # - Tutorial Videos: platform_tutorial_videos.md
-  
-  # - FAQs: faqs.md
+  - Core Measures:
+    - Data Dictionary Search: https://jcoin-maarc.github.io/JCOIN-Core-Measures
+  - Curation and Submission Tools: https://github.com/jcoin-maarc/jdc-utilities #NOTE: this will be the git hub pages after its built
   - Contact: contact.md
 theme:
   name: material
   palette:
-    scheme: heal_platform
+    scheme: jdc
   font:
-    text: Montserrat
-  logo: assets/HEAL_Initiative_White-cropped.svg
+    text: Source Sans Pro
+  logo: assets/heal_logo.png
   features:
     - navigation.indexes
     # Disable for now, as it causes problems with links to sections in Safari
@@ -52,6 +46,8 @@ markdown_extensions:
       baselevel: 1
   - pymdownx.superfences
   - pymdownx.details
+  - pymdownx.snippets:
+      url_download: True
 plugins:
   - search
   - mkdocs-video:

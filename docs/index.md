@@ -14,16 +14,3 @@ For more general information on JCOIN visit the [NIH JCOIN website](https://heal
 The JCOIN Data Commons supports cross-site data synchronization, harmonization and reporting in addition to analytic tools to support JCOIN research goals.
 
 JCOIN Data Commons (JDC) is a system built on the Gen3 software platform developed by the Center for Translational Data Science (CTDS) at the University of Chicago. A [Gen3 Data Commons](https://gen3.org/) provides a secure platform for sharing and computing over data, and may be accessed through this website or via the application programming interface (API).
-
-While user documentation specific to the JDC is forthcoming, these links are useful for navigating the JDC:
-
-[Accessing data](https://gen3.org/resources/user/access-data/)
-
-[Analyzing data](https://gen3.org/resources/user/analyze-data/)
-
-
-## Information on JDC data and associated analytic tools
-
-Click on each link below to find out more:
-
-IN DEVELOPMENT

@@ -2,6 +2,8 @@
 
 Upon coming to the data commons, users are directed to the home page (ie landing) page. This page serves to provide (a) quick access to key features and (b) an understanding of data and files currently in the JDC.
 
+![Homepage](../assets/jdc-homepage.png)
+
 ## Total Count Charts
 
 - **Total participants:** The total number of unique participants. Studies submitting individual level and aggregated count data make up this metric. 
@@ -10,8 +12,6 @@ Upon coming to the data commons, users are directed to the home page (ie landing
 
 ## Submit Data
 
-This step in submission process is currently done by MAARC due to the current role in providing quality control for submitted data. 
+This step in submission process is currently done by MAARC. For the hub submission process, see here.
 
-Submit data into the relational database. For more information about submission, [click here](submission.md).
-
-For more information about how data in this relational database works and how it follow the data model, [click here](index.md).
+Submit data into the relational database. For more information about submission and the current workflow, [click here](submission.md).

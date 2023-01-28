@@ -2,20 +2,19 @@
 
 You **will not** need to log in in order to:
 
-*   _browse_ the study metadata on the Discovery Page
-*   _read_ the pre-made tutorial notebooks in the “Example Analysis” tab
+*   _browse_ the documentation for the data commons 
+*   _search_ the Core Measure (and other available) Data Dictionaries Search Tool
 
 You **will** need to log in and obtain authorization (access) in order to:
 
-*   _register_ your own study
-*   _access_ studies with controlled data
+*   _access_ studies in which you have been assigned permissions for 
 *   _perform_ analyses in workspaces
 *   _download_ data files and file manifests
-*   _run_ interactive tutorial notebooks in workspaces
+*   _run_ the Core Measure Browser
 
-Start by visiting the [login page](https://healdata.org/portal/login).
+Start by visiting the [login page](https://jcoin.datacommons.io/login).
 
-![Healdata-Login](assets/healdataorg_login.png)
+![login-page](assets/login/page.png)
 
 ## Login Page Options
 

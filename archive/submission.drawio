@@ -1,0 +1,30 @@
+flowchart TB
+
+subgraph HUBS
+   collect[Collect data via REDCAP,Qualtrics, or other method];
+   export[Export data in preferred format:\ncurrently supports XLSX,XLS, SPSS, CSV, and TSV files];
+   summary[Fill out the template file\ncontaining subgroup summaries];
+   map["Map to baseline and time point data models:\n
+      1. Replace local participant ids (PIDs) to MAARC-generated JDC ids
+      2. Shift date columns
+      2. Rename variables and map variable values to data model (see data dictionary)"];
+   validate["Validate datasets with jdc-utils tool"];
+   individual_submit["Submit validated dataset to assigned storage location"];
+   template_submit["Submit filled out template to assigned storage location"];
+   send[DASC tools create synthetic data from template]
+
+   collect -- no individual-level\ndata collection --> summary --> send --> template_submit
+   collect -- individual level\ndata collection --> export --> map --> validate --> individual_submit
+end;
+
+subgraph MAARC 
+   maarc_submit[Upload packaged files to JDC with restricted permissions];
+   package_file["Package data with\n study-level and variable level metadata"];
+   map_to_JDC["Map to JDC data model"];
+
+   individual_submit --> package_file --> maarc_submit
+   template_submit --> maarc_submit
+
+   individual_submit --> map_to_JDC
+   template_submit --> map_to_JDC
+end;

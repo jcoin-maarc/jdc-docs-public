@@ -6,9 +6,12 @@ JCOIN data commons using mkdocs and related plugins.
 The `archive` folder may contain useful tidbits (albeit incomplete).  
 
 # Set up
+# Set up
 
 set up virtual env with the requirements.txt if pip or environments.yml if conda
 
+run `mkdocs serve` for local dev
+run `mkdocs gh-deploy` to deploy to production
 run `mkdocs serve` for local dev
 run `mkdocs gh-deploy` to deploy to production
 

@@ -22,15 +22,9 @@ theme:
     text: Source Sans Pro
   logo: assets/heal_logo.png
   features:
-    - navigation.indexes
     # Disable for now, as it causes problems with links to sections in Safari
     # https://github.com/squidfunk/mkdocs-material/issues/3797
-    # - navigation.instant
-    - navigation.indexes
-    #- navigation.tabs
-    #- navigation.tabs.sticky
-    - navigation.tracking
-    #- navigation.sections
+    - navigation.sections
     #- toc.integrate
   favicon: assets/heal_logo.png
 extra_css:

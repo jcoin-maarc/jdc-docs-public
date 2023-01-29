@@ -1,8 +1,12 @@
 # Exploration Page
 
-Quickly explore harmonized data (core measures in the two data tabs) and download available datasets (in the datasets tab)
+Quickly explore harmonized data (core measures in the two data tabs) and download available datasets (in the datasets tab) within the exploration page.
 
 > The exploration page only shows data and files the user has been granted access.
+
+Clicking on the "exploration" and "dataset" buttons (see below) will direct the user to the data and dataset tabs,respectively.
+
+![cards](../assets/cards.png)
 
 ## Data Tabs
 

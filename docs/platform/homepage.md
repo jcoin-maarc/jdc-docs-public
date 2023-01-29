@@ -12,6 +12,4 @@ Upon coming to the data commons, users are directed to the home page (ie landing
 
 ## Submit Data
 
-This step in submission process is currently done by MAARC. For the hub submission process, see here.
-
-Submit data into the relational database. For more information about submission and the current workflow, [click here](submission.md).
+This step in submission process is currently done by MAARC. For the hub submission process, for more information about submission and the current workflow, [click here](submission.md).

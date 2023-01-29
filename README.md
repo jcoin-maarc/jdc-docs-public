@@ -5,19 +5,12 @@ JCOIN data commons using mkdocs and related plugins.
 
 The `archive` folder may contain useful tidbits (albeit incomplete).  
 
-## Set up
+# Set up
 
-```python
+set up virtual env with the requirements.txt if pip or environments.yml if conda
 
-# To install mkdocs and the 
-# mermaid plugin for diagram creation:
-pip install mkdocs mkdocs-mermaid2-plugin
-
-# install packages from documetnation creation
-pip install pandas #or conda install pandas if using conda
-
-# jsonpath expressions for simplifying work with frictionless schema
-pip install jsonpath_ng
+run `mkdocs serve` for local dev
+run `mkdocs gh-deploy` to deploy to production
 
 # install pdf creation plugin
 There are a few packages available such as mkdocs-with-pdf

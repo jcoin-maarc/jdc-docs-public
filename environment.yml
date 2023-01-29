@@ -1,0 +1,9 @@
+name: mkdocs-dev
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - pip:
+    - mkdocs-material
+    - mkdocs-mermaid2-plugin
+    - mkdocs-video

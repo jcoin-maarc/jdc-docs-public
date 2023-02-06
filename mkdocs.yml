@@ -10,8 +10,7 @@ nav:
     - Explorer Page: platform/explorer.md
     - Profile Page: platform/profile_page.md
     #TODO: add workspaces and core measure browser
-  - Core Measures:
-    - Data Dictionary Search: https://jcoin-maarc.github.io/JCOIN-Core-Measures
+  - Core Measures: https://jcoin-maarc.github.io/JCOIN-Core-Measures
   - Curation and Submission Tools: https://github.com/jcoin-maarc/jdc-utilities #NOTE: this will be the git hub pages after its built
   - Contact: contact.md
 theme:

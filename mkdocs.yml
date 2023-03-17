@@ -44,7 +44,7 @@ markdown_extensions:
       url_download: True
 plugins:
   - search
-  - mkdocs-video:
-      is_video: True
+  # - mkdocs-video:
+  #     is_video: True
   # - mermaid2
   #- offline

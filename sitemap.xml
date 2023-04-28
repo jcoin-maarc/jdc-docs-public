@@ -2,42 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://jcoin-maarc.github.io/jdc-docs-public/</loc>
-         <lastmod>2023-03-17</lastmod>
+         <lastmod>2023-04-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jcoin-maarc.github.io/jdc-docs-public/contact/</loc>
-         <lastmod>2023-03-17</lastmod>
+         <lastmod>2023-04-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jcoin-maarc.github.io/jdc-docs-public/logging-in/</loc>
-         <lastmod>2023-03-17</lastmod>
+         <lastmod>2023-04-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jcoin-maarc.github.io/jdc-docs-public/submission/</loc>
+         <lastmod>2023-04-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jcoin-maarc.github.io/jdc-docs-public/platform/</loc>
-         <lastmod>2023-03-17</lastmod>
+         <lastmod>2023-04-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jcoin-maarc.github.io/jdc-docs-public/platform/explorer/</loc>
-         <lastmod>2023-03-17</lastmod>
+         <lastmod>2023-04-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jcoin-maarc.github.io/jdc-docs-public/platform/homepage/</loc>
-         <lastmod>2023-03-17</lastmod>
+         <lastmod>2023-04-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jcoin-maarc.github.io/jdc-docs-public/platform/profile_page/</loc>
-         <lastmod>2023-03-17</lastmod>
+         <lastmod>2023-04-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jcoin-maarc.github.io/jdc-docs-public/platform/workspaces/</loc>
-         <lastmod>2023-03-17</lastmod>
+         <lastmod>2023-04-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

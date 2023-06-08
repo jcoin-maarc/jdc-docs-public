@@ -11,7 +11,7 @@ nav:
     - Profile Page: platform/profile_page.md
     #TODO: add workspaces and core measure browser
   - Core Measures: https://jcoin-maarc.github.io/JCOIN-Core-Measures
-  - Core Measures Data Dictionaries: https://mbkranz-jcoin-core-measures-appmain-ah4ety.streamlit.app/?utm_medium=oembed
+  - Core Measures Data Dictionaries: https://jcoin-maarc.github.io/JCOIN-Core-Measures/search-tool
   - Curation and Submission Tools: submission.md #NOTE: this will be the git hub pages after its built
   - Contact: contact.md
 theme:

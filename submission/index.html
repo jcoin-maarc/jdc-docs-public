@@ -585,12 +585,21 @@
 <p>Below are general submission instructions JCOIN core measure data submissions.</p>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
-<p>Please reach out to the MAARC (see the "Contact" section <a href="https://jcoin-maarc.github.io/jdc-docs-public/contact/">here</a>) or data manager list serve to chart out a hub-specific data management plan, technical assistance, or any other questions. Below are general guidelines. Hub specific procedures are catered towards hub internal workflows and preferences while maintaining data privacy and security standards.</p>
+<p>Please reach out to the MAARC (see the "Contact" section <a href="https://jcoin-maarc.github.io/jdc-docs-public/contact/">here</a>) or data manager list serve to chart out a hub-specific data management plan, technical assistance, or any other questions. Below are general guidelines. Hub specific procedures are catered towards hub internal workflows and preferences while maintaining data privacy and security standards. <strong>Below is one recommended workflow</strong></p>
 </div>
 <h3 id="individual-level-data-submissions">Individual level data submissions<a class="headerlink" href="#individual-level-data-submissions" title="Permanent link">&para;</a></h3>
 <h4 id="1-harmonize-local-hub-variables-with-the-core-measure-data-elements">1. <strong>Harmonize local hub variables with the core measure data elements</strong><a class="headerlink" href="#1-harmonize-local-hub-variables-with-the-core-measure-data-elements" title="Permanent link">&para;</a></h4>
 <p>The initial step involves mapping and transforming local datasets to the common core measure datasets.</p>
-<p>The final datasets are 2 files: a baseline (ie person-level dataset) and a timepoints file (ie measures taken across all timepoints from baseline to each follow up) for both staff and clients (participants). </p>
+<p>The final datasets (ie the datasets hubs submit to the MAARC) are 2 files: a baseline (ie person-level dataset) and a timepoints file (ie measures taken across all timepoints from baseline to each follow up) for both staff and clients (participants). </p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+</div>
+<p>JCOIN submission dataset variable names can be one of:</p>
+<ol>
+<li>the <strong>original</strong> variable names (called <code>custom.original_name</code>)
+ Upon submission, these <strong>original</strong> names will be automatically remapped to the "new" <code>name</code>.</li>
+<li>the <strong>new</strong> variable names (called <code>name</code> in the data dictionaries/schemas)</li>
+</ol>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>For more info on the core measure variables, variable values, and file structure, <a href="https://jcoin-maarc.github.io/JCOIN-Core-Measures"><strong>click here</strong></a>. </p>

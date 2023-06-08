@@ -6,7 +6,7 @@ Below are general submission instructions JCOIN core measure data submissions.
 
 !!! important 
 
-    Please reach out to the MAARC (see the "Contact" section [here](https://jcoin-maarc.github.io/jdc-docs-public/contact/)) or data manager list serve to chart out a hub-specific data management plan, technical assistance, or any other questions. Below are general guidelines. Hub specific procedures are catered towards hub internal workflows and preferences while maintaining data privacy and security standards.
+    Please reach out to the MAARC (see the "Contact" section [here](https://jcoin-maarc.github.io/jdc-docs-public/contact/)) or data manager list serve to chart out a hub-specific data management plan, technical assistance, or any other questions. Below are general guidelines. Hub specific procedures are catered towards hub internal workflows and preferences while maintaining data privacy and security standards. __Below is one recommended workflow__
 
 ### Individual level data submissions
 
@@ -14,7 +14,14 @@ Below are general submission instructions JCOIN core measure data submissions.
 
 The initial step involves mapping and transforming local datasets to the common core measure datasets.
 
-The final datasets are 2 files: a baseline (ie person-level dataset) and a timepoints file (ie measures taken across all timepoints from baseline to each follow up) for both staff and clients (participants). 
+The final datasets (ie the datasets hubs submit to the MAARC) are 2 files: a baseline (ie person-level dataset) and a timepoints file (ie measures taken across all timepoints from baseline to each follow up) for both staff and clients (participants). 
+
+!!! important 
+JCOIN submission dataset variable names can be one of:
+
+1. the __original__ variable names (called `custom.original_name`)
+ Upon submission, these __original__ names will be automatically remapped to the "new" `name`.
+2. the __new__ variable names (called `name` in the data dictionaries/schemas)
 
 !!! note
 

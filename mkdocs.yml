@@ -5,6 +5,7 @@ nav:
   - Home: index.md
   - Return to Platform: https://jcoin.datacommons.io/
   - Logging In: logging-in.md
+  - Access Data: access-data.md
   - JDC Platform Features:
     - Home Page: platform/homepage.md
     - Explorer Page: platform/explorer.md
